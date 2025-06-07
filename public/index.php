@@ -1,8 +1,7 @@
 <?php
-declare(strict_types=1);
 
-// Loading the map of short -> full URLs
-$routes = array_change_key_case(include __DIR__ . '/urls.php', CASE_LOWER);
+// Loading the map of short -> full URLs from /redirects.php
+$routes = include('../redirects.php');
 
 // Grab the requested "path" (strip leading/trailing slashes) and normalize to lowercase
 $path = strtolower(trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ?? '', '/'));
