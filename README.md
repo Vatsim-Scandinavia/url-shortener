@@ -2,7 +2,7 @@
 Super simple but working url shortener
 
 ## Configuration
-You can configure the URLs by pull requesting to the `redirects.php` file.
+You can configure the URLs by pull requesting to the `redirects.php` file. The urls are case insentitive.
 
 ## Caching
 This application uses the OPCache to cache the compiled PHP code. Default setting is for production which means that the cache is not cleared automatically. To clear the cache, you need to restart the container if you change a file.
