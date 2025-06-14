@@ -2,7 +2,7 @@
 
 return [
     // When visiting https://vatsca.org/  (i.e. no path)...
-    ''          => 'https://vatsca.org',
+    ''          => 'https://vatsim-scandinavia.org',
 
     // When visiting https://vatsca.org/foo etc.
     'atis'      => 'https://atis.adbj.no/',
