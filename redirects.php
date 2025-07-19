@@ -23,5 +23,6 @@ return [
     'fss'       => 'https://fss.vatsim-scandinavia.org',
     'norwaypilot' => 'https://wiki.vatsim-scandinavia.org/books/norwegian-airports-charts/page/general-recommendations',
     'stands'      => 'https://stands.vatsim-scandinavia.org/',
-    'supportatcbook' => 'https://youtube.com/watch?v=q-Y0bnx6Ndw&si=ELBxfEOpqWN-zxwD'
+    'supportatcbook' => 'https://youtube.com/watch?v=q-Y0bnx6Ndw&si=ELBxfEOpqWN-zxwD',
+    'cphlive' => 'https://cphlive.vatsim-scandinavia.org'
 ];
